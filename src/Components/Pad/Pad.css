@@ -1,0 +1,18 @@
+.drum-pad{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(63, 63, 63);
+    box-shadow: 2px 2px 5px 3px black,
+                inset 1px 1px 5px  rgba(255, 255, 255, 0.2),
+                inset 1px 1px 20px 30px rgb(26, 26, 26);
+    color: rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+
+.pad_active{
+  color: rgb(0, 225, 255);
+  text-shadow: 2px 2px 15px rgb(0, 225, 255);
+  box-shadow: inset 1px 1px 10px 1px rgb(0, 225, 255);
+}

@@ -1,0 +1,79 @@
+
+.controls-container{
+    width: 200px;
+    height: 300px;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.volume,.drum-display{
+  width: 80%;
+  height: 35px;
+  padding: 8px;
+  font-family: 'DSEG14-Classic';
+}
+
+.volume{
+  color:#fb7c00;
+  background-color: black;
+}
+
+.buttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  color: gainsboro;
+}
+
+.buttons button{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(26, 26, 26, 0.61);
+  box-shadow: inset -2px 2px 3px -1px  rgb(145, 145, 145),
+  2px 2px 2px 1px rgb(26, 26, 26);
+  cursor: pointer;
+}
+
+
+.buttons_power,.buttons_vol_minus,.buttons_vol_plus{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.drum-display{
+  background-color: rgb(145, 144, 144);
+  border: .3px solid black;
+  text-align: center;
+}
+
+.drum-display_active{
+  background-color: #77abff;
+}
+
+.annotation{
+  width: 80%;
+  height: 35px;
+  padding: 8px;
+  color: gray;
+  font-size: 11px;
+}
+
+.annotation a{
+  text-decoration: none;
+  color: white;
+}
+
+.power_on{
+  fill: rgb(2, 255, 150);
+
+}
+.power_off{
+  fill: gray;
+}
